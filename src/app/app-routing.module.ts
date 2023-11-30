@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 @NgModule({
     imports: [
         RouterModule.forRoot([
-            { path: '**', redirectTo: '/notfound' },
+            // { path: '**', redirectTo: '/notfound' },
         ], { scrollPositionRestoration: 'enabled', anchorScrolling: 'enabled', onSameUrlNavigation: 'reload' })
     ],
     exports: [RouterModule]

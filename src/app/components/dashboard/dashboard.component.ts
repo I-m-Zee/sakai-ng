@@ -52,6 +52,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
                     label: 'Second Dataset',
                     data: [28, 48, 40, 19, 86, 27, 90],
                     fill: false,
+                    type: 'bar',
                     backgroundColor: documentStyle.getPropertyValue('--green-600'),
                     borderColor: documentStyle.getPropertyValue('--green-600'),
                     tension: .4
